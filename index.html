@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2023</title>
+  </head>
+  <body>
+    <h1>Tetris</h1>
+    <main id="main" class="flex row">
+      <svg id="svgCanvas">      
+      </svg>
+      <div id="sideBar" class="flex col">
+        <svg id="svgPreview"></svg>
+        <div id="info" class="flex col">
+          <div class="text">
+            <span class="left">Score: </span>
+            <span class="right" id="scoreText">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Highscore: </span>
+            <span class="right" id="highScoreText">...</span>
+          </div>
+          <div id="holdStatusLabel">Hold: Available</div>
+        </div>
+      </div>
+    </main>
+    <div id="leftBox" class="flex col side">
+      <h2>Game Rules</h2>
+        <ul>
+        <li><b>Goal:</b> Score as many points as possible by clearing lines.<br><br></li>
+        <li><b>Scoring:</b> 1 point is awarded for every row cleared.<br><br></li>
+        <li><b>Clearing lines:</b> After 2 lines are cleared, the difficulty increases <br><br></li>
+        <li><b>Game Over:</b> The game ends when the blocks reach the top of the screen.<br></li>
+        </ul>
+    </div>
+    <div id="rightBox" class="flex col side">
+      <h2>Controls</h2>
+      <ul>
+        <li><b>'A'</b> button - Move left<br><br></li>
+        <li><b>'D'</b> button - Move right<br><br></li>
+        <li><b>'S'</b> button - Soft drop<br><br></li>
+        <li><b>'R'</b> button - Rotate clockwise<br><br></li>
+        <li><b>'H'</b> button - Hold<br><br></li>
+      </ul>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
