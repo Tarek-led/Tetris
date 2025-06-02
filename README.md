@@ -19,8 +19,6 @@ Serve up the App (and ctrl-click the URL that appears in the console)
 
 ## Implementing features
 
-There are a few files you may wish to modify. The rest should **not** be modified as they are used for configuring the build.
-
 `src/main.ts`
 - Code file used as the entry point
 - Most of your game logic should go here
