@@ -1,4 +1,4 @@
-# Tetris
+# Tetris (Under constraints of making it as pure as possible)
 
 ## Usage
 
